@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+	<title>Documentation</title>
+    <style>
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1,5;
+	font-size: 23px;
+}
+input,button,textarea{font-family:inherit;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+	#navbar ul {
+		height: 100vh;
+		overflow: scroll;
+	}
+	#navbar ul li {
+		padding: 20px;
+		border-bottom: 1px solid #000;
+		color: gray;
+	}
+	#navbar ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    background: #d1d1d1;
+    padding: 11px;
+	}
+	#navbar ul li a:hover {
+		color: blue;
+	}
+	.menu {
+		color: #464667;
+		font-size: 1.8em;
+		font-weight: 600;
+		padding: 20px;
+		border-bottom: 1px solid #000;
+		}
+	.header {
+		border-right: 4px solid gray;
+		position: fixed;
+		}
+		.header-title {
+			font-size: 25px;
+		font-weight: 600;
+		display: inline-block;
+		padding: 0 0 20px 0;
+		}	
+	p {
+		font-size: 19px;
+    display: block;
+    padding: 0 0 20px 0;
+    color: #464667;
+		
+	}	
+	.main-section {
+		margin: 40px;
+	}
+	.main-section ul li {
+		padding: 0 0 20px 0;
+		margin: 0 0 0 40px;
+		font-size: 20px;
+		}
+		code {
+			background-color: #D1D1D1FF;
+			display: block;
+			padding: 20px;
+			margin: 0 0 20px 0;
+		}
+		#main-doc {
+			position: absolute;
+			left: 450px;
+		}
+		.ten ul .list2 {
+			display: block;
+			margin: 0 0 0 20px;
+		}
+		.git{
+			background-color: #D1D1D1FF;
+			display: block;
+			padding: 20px;
+			margin: 0 0 20px 0;
+			/* text-align: initial; */
+			text-decoration: none;
+			font-weight: 600;
+		}
+		
+
+		button {
+			background: #464667;
+			color:white;
+			padding: 10px;
+			font-weight: 600;
+			font-size: 18px;
+		}
+
+    </style>
+</head>
+<body>
+	<div class="wrapper">
+		<nav id="navbar">
+	<header class="header">
+		<div class="menu">Html Documentation</div>
+						<ul>
+				<li><a class="nav-link" href="#Introduction">Introduction</a></li>
+				<li><a class="nav-link" href="#What">HTML Headings</a></li>
+				<li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+				<li><a class="nav-link" href="#portfoilio">portfoilio</a></li>
+				<li><a class="nav-link" href="#select">Select</a></li>
+				
+				</ul>
+	 		 </nav>
+	</header>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+		<header class="header-title">Introduction</header>
+		<p>HTML is the standard markup language for creating Web pages.</p>
+		<p>What is HTML?</p>
+		
+		<ul>
+			<li>HTML stands for Hyper Text Markup Language</li>
+			<li>HTML is the standard markup language for creating Web pages</li>
+			<li>HTML describes the structure of a Web page</li>
+			<li>HTML elements tell the browser how to display the content</li>
+			<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+		</ul>
+		</section>
+		<section class="main-section" id="What">
+		<header class="header-title">HTML Headings</header>
+		<p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+			<code>
+				Heading 1
+				<br>
+				Heading 2
+				<br>
+				Heading 3
+				<br>
+				Heading 4
+				<br>
+				Heading 5
+				<br>
+				Heading 6
+			</code>
+		</section>
+		
+		<section class="main-section" id="HTML_Attributes">
+		<header class="header-title">HTML Attributes</header>
+		<h3>The href Attribute</h3>
+		<p>The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+				
+				<a href="https://github.com/Prerna0407?tab=repositories" class="git">github</a>
+				
+				<h3>The src Attribute</h3>
+		<p>The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:</p>
+				<code>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" style="    height: 7vh;">
+				</code>
+				<h3>The style Attribute</h3>
+		<p>The style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+				<code>
+					<p style="color:red;">This is a red paragraph.</p>
+				</code>
+				
+		</section>
+		
+	<section class="main-section" id="portfoilio">
+	<h3>About me</h3>
+		<p> Iam prerna ingale <br>
+			some of my projects that i have done in last 5 months</p>
+		<a href="https://github.com/Prerna0407?tab=repositories" target="_blank" class="git">Visit my github profile</a>
+		
+	</section>
+		
+	<section class="main-section" id="select">
+		<h3>Html Dom</h3>
+		<div class="git">
+			<input type="text" id="text-box" size="20"
+			value="Im frontend and backend developer">
+	
+	<button onclick="selectText()">
+		Select text
+	</button>
+		</div>
+		
+	</section>
+	</main>
+	</div>
+	<script>
+		function selectText() {
+			const content =
+				document.getElementById('text-box');
+
+			content.select();
+		}
+	</script>
+</body>
+</html>
